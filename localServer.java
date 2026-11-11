@@ -24,7 +24,7 @@ public class localServer {
             System.out.println("Client says: " + messageFromClient);
                  
                  // sending file
-                 if(t == 5){
+                 if(t == 22){
                       out.println("Readd");
                       String path = "goo.txt";
                       FileReader fr = new FileReader(path);
